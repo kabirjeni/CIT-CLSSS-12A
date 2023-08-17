@@ -1,0 +1,241 @@
+
+/* COMMON CSS START */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,400;0,800;1,400&family=Roboto:wght@700&family=Ubuntu:wght@400;500&display=swap');
+:root{
+    --primaryFont: 'Ubuntu', sans-serif;
+    --secondaryFont: 'Abril Fatface', cursive;
+    --thirdFont: 'Open Sans', sans-serif;
+    --primarycolor: #0f2f44;
+    --secondarycolor: #ffc712;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170 px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family: var(--Primaryfont);
+}
+
+a{
+    text-decoration: none;
+}
+ul, li{
+    list-style: none;
+}
+/* COMMON CSS */
+/* head starter */
+header{
+    background-color: var(--primarycolor);
+    color: white;
+    padding: 18px 0;
+    
+}
+header .welcome,
+header .opening{
+    width: 50%;   
+}
+header .opening{
+    text-align: right;
+}
+
+ 
+/* head End */
+/* NAVBAR START HERE*/
+nav .logo{
+    width: 30%;
+    align-self: center;
+}
+
+nav .menu{
+    width: 70%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+
+}
+nav .menu ul li a{
+    color: var(--Primaryfont);
+    font-weight: 500;
+    font-size: 16px;
+    padding: 40px 19px;
+    display: block;
+}
+nav .menu ul li:hover a{
+    background-color: #fff9e6;
+    color: var(--secondarycolor);
+
+}
+nav .menu ul li span{
+    border: 1px solid #888;
+    color: #888;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: block;
+    line-height: 40px;
+    cursor: pointer;
+}
+/* NAVBAR END HERE */
+/* Banner Start HERE */
+#banner{
+    background-image: url(../images/banner.jpg);
+    height: 600px;
+    background-position: center; 
+}
+#banner .container,
+#banner .row{
+    height: 100%;
+     
+}
+.banner_cnt{
+    width: 40%;
+    align-self: center;
+}
+.banner_cnt h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+.banner_cnt h1{
+    font-size: 80px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+.banner_cnt h3{
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    color: #8484bf;
+}
+.banner_cnt p{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.banner_cnt .explorebutton{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px 16px 20px 35px;
+    margin-top: 30px;
+    margin-right: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #8484bf;
+    color: #ffffff;
+
+}
+.banner_cnt .playbutton{
+    font-size: 20px;
+    font-weight: 400;
+    color: #8484bf;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px ,rgba(0, 0, 0, 0.23) 0px 6px 6px; 
+}
+
+/* Banner END HERE */
+/* About Start HERE */
+#About{
+    padding: 100PX 70px;
+}
+#about .container_about,
+#about .container_about .row{
+    height: 100%;
+}
+.about_cnt{
+    width: 40%;
+}
+.container_about .row img{
+    width: ;
+    text-align: right;
+    padding: px;
+}
+.container_about .row h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+.container_about .row h2{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: var(--secondaryFont);
+}
+.container_about .row p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 0px;
+}
+.container_about .row h5{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+    padding: 15px 0px;
+    counter-reset: #0f2f44;
+}
+.about_cnt .knowmore{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #ffc712;
+    display: inline-block;
+    border-radius: 5%;
+    padding: 10px 15px 10px 10px;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+.about_cnt .readlater{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--Primaryfont);
+    display: inline-block;
+    border-radius: 5%;
+    padding: 10px 15px 10px 10px;
+    margin-left: 10px;
+    margin-top: 35px;
+    border-radius: rgba(0, 0, 0, 0.19) 0px 10px 20px ,rgba(0, 0, 0, 0.23) 0px 6px 6px; ;
+}
+
+/* About END HERE */
+/* Skills Start HERE */
+.container_skills .row{
+    text-align: right;
+    padding: px;
+    padding-left: 35px;
+}
+.container_skills .row img{
+    width: 600px;
+    height: 400px;
+}
+.container_skills .row h5{
+    padding: px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.container_skills .row h2{
+    padding: px;
+    font-size: 32px;
+    font-weight: 400;
+}
+.container_skills .row p{
+    padding-right: px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.container_skills  ctn_img{
+    width: 6000px;
+}
+/* Skills END HERE */
